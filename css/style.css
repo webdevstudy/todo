@@ -4,22 +4,20 @@
     width: 100%;
 }
 
-.p-inline {
-    display: inline-block;
-}
-
 h1 {
     text-align: center;
     color: grey;
 }
 
-.button1 {
-    border-radius: 100%;
-}
-
 .form-field {
     border-radius: 0%;
 }
+
+/* Buttons */
+.buttonRounded {
+    border-radius: 100%;
+}
+
 
 #deleteButton {
     background-color: red;
@@ -30,19 +28,21 @@ h1 {
     background-color: green;
     border-color: #ffffff;
 }
+/**/
 
 
-@media screen and (max-width: 902px) {
+.taskDivider {
+    padding: 0;
+    margin: 15px 0;
+}
+
+
+@media screen and (max-width: 992px) {
     .form-field {
         margin: 5px 0;
     }
-    #addTaskButton {
-        display: inline-block;
-    }
-
-    #dataField {
-        width: 87%;
-        display: inline-block;
+    .toDoItem {
+        margin: 10px;
     }
 }
 
