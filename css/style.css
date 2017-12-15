@@ -10,13 +10,40 @@
 
 h1 {
     text-align: center;
+    color: grey;
 }
 
+.button1 {
+    border-radius: 100%;
+}
+
+.form-field {
+    border-radius: 0%;
+}
+
+#deleteButton {
+    background-color: red;
+    border-color: #ffffff;
+}
+
+#doneButton {
+    background-color: green;
+    border-color: #ffffff;
+}
+
+
 @media screen and (max-width: 902px) {
-    .form-element {
+    .form-field {
         margin: 5px 0;
     }
+    #addTaskButton {
+        display: inline-block;
+    }
 
+    #dataField {
+        width: 87%;
+        display: inline-block;
+    }
 }
 
 
