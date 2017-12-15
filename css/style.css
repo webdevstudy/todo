@@ -1,0 +1,22 @@
+.container {
+    box-shadow: 0 0 12px rgba(0,0,0,.15);
+    max-width: 1280px;
+    width: 100%;
+}
+
+.p-inline {
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 902px) {
+    .form-element {
+        margin: 5px 0;
+    }
+
+}
+
+
