@@ -18,38 +18,35 @@
                 <div class="col-md-6">
                     <input class="form-control form-field" type="text" name="Task" placeholder="New Task">
                 </div>
-                <div id="dataField" class="col-md-3 col-xs-10">
+                <div id="dataField" class="col-md-3 col-xs-8">
                     <input class="form-control form-field" type="text" name="Data" placeholder="Data">
                 </div>
-                <div id="addTaskButton" class="col-md-3 col-xs-1">
-                    <button type="button" class="buttonRounded btn btn-primary"> + </button>
+                <div id="addTaskButton" class="col-md-1 col-xs-2">
+                    <button type="button" class="button_rounded btn btn-primary" aria-label="Add Task">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    </button>
                 </div>
             </div>
         </form>
 
         <hr class="taskDivider">
-        <div class="row toDoItem">
-            <div class="col-md-3 col-xs-5"> <p>Task 1</p> </div>
-            <div class="col-md-3 col-xs-5"> <p>Data1</p> </div>
-            <div class="col-md-1 col-xs-1">
-                <button id="deleteButton" type="button" class="buttonRounded btn btn-primary"> x </button>
+        <div class="row">
+            <div class="col-md-6"> <p>Task 1</p> </div>
+            <div class="col-md-3 col-xs-8"> <p>Data1</p> </div>
+            <div class="col-md-1 col-xs-2">
+                <button type="button" class="button_rounded btn btn-danger" aria-label="Remove Task">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
             </div>
-            <div class="col-md-1 col-xs-1">
-                <button id="doneButton" type="button" class="buttonRounded btn btn-primary"> v </button>
+            <div class="col-md-1 col-xs-2">
+                <button type="button" class="button_rounded btn btn-success" aria-label="Mark as Done">
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                </button>
             </div>
         </div>
 
         <hr class="taskDivider">
-        <div class="row toDoItem">
-            <div class="col-md-3 col-xs-5"> <p>Task 1</p> </div>
-            <div class="col-md-3 col-xs-5"> <p>Data1</p> </div>
-            <div class="col-md-1 col-xs-1">
-                <button id="deleteButton" type="button" class="buttonRounded btn btn-primary"> x </button>
-            </div>
-            <div class="col-md-1 col-xs-1">
-                <button id="doneButton" type="button" class="buttonRounded btn btn-primary"> v </button>
-            </div>
-        </div>
+
 
     </div>
 </body>

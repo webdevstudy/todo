@@ -1,8 +1,15 @@
 .container {
     box-shadow: 0 0 12px rgba(0,0,0,.15);
-    max-width: 1280px;
+    max-width: 1024px;
     width: 100%;
+    background-color: white;
+    height: 100vh;
 }
+
+body {
+    background-color: darkgrey;
+}
+
 
 h1 {
     text-align: center;
@@ -14,21 +21,12 @@ h1 {
 }
 
 /* Buttons */
-.buttonRounded {
+.button_rounded {
     border-radius: 100%;
 }
 
 
-#deleteButton {
-    background-color: red;
-    border-color: #ffffff;
-}
 
-#doneButton {
-    background-color: green;
-    border-color: #ffffff;
-}
-/**/
 
 
 .taskDivider {
